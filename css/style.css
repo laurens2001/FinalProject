@@ -2,7 +2,7 @@
   position: fixed;
   width: 100%;
   height: 400px;
-  margin: 270px auto;
+  margin: 15% 0%;
   padding: 20px;
 }
 .categorysSelection .modern{
@@ -171,7 +171,7 @@ body{
   
 }#img4{
   transition: all 0.3s;
-  background-image: url("http://thewowstyle.com/wp-content/uploads/2015/04/Images-For-gt-Modern-Art-....jpg");
+  background-image: url("http://bloote.com/wp-content/uploads/2015/06/art.jpg");
   background-size: cover;
   height: 285px;
   width: 285px;
@@ -182,7 +182,7 @@ body{
   
 }#img5{
   transition: all 0.3s;
-  background-image: url("http://thewowstyle.com/wp-content/uploads/2015/04/Images-For-gt-Modern-Art-....jpg");
+  background-image: url("https://img1.etsystatic.com/036/0/8637976/il_fullxfull.556579951_lfqc.jpg");
   background-size: cover;
   height: 285px;
   width: 285px;
@@ -193,7 +193,7 @@ body{
   
 }#img6{
   transition: all 0.3s;
-  background-image: url("http://thewowstyle.com/wp-content/uploads/2015/04/Images-For-gt-Modern-Art-....jpg");
+  background-image: url("http://images.fineartamerica.com/images-medium-large-5/contemporary-modern-art-original-abstract-landscape-painting-blue-essence-by-megan-duncanson-megan-duncanson.jpg");
   background-size: cover;
   height: 285px;
   width: 285px;
@@ -204,7 +204,7 @@ body{
   
 }#img7{
   transition: all 0.3s;
-  background-image: url("http://thewowstyle.com/wp-content/uploads/2015/04/Images-For-gt-Modern-Art-....jpg");
+  background-image: url("https://www.moma.org/images/dynamic_content/exhibition_page/118646.jpg?1421445024");
   background-size: cover;
   height: 285px;
   width: 285px;
@@ -215,7 +215,7 @@ body{
   
 }#img8{
   transition: all 0.3s;
-  background-image: url("http://thewowstyle.com/wp-content/uploads/2015/04/Images-For-gt-Modern-Art-....jpg");
+  background-image: url("http://c300221.r21.cf1.rackcdn.com/brazilian-modern-art-original-acrylic-painting-on-mdf-title-myopia-1340244865_org.jpg");
   background-size: cover;
   height: 285px;
   width: 285px;
@@ -224,4 +224,11 @@ body{
   border-radius: 10px;
   	box-shadow: 0 0 20px #303030;
   
+}
+div .like{
+  height: 20px;
+  width: 20%;
+  border: 1px solid red;
+  margin-left: 80%;
+  background-color: lightblue;
 }

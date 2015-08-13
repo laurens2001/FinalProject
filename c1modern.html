@@ -22,7 +22,7 @@
     </div>
   </header>
    <div class="C1Images">
-     <li id="img1"></li>
+     <li id="img1"><div class="like"></div></li>
      <li id="img2"></li>
      <li id="img3"></li>
      <li id="img4"></li>
@@ -57,7 +57,10 @@
       $("#img8").mouseover(function(){
           $("#infobox").text("img8")
         });
-    });
+      var like = 0; 
+$(".like").click=function(){like ++;}
+      console.log(like)
+});
     </script>
 </div>
   </body>
