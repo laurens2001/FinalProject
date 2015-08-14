@@ -18,18 +18,58 @@
       title="Category Button"
       src="https://cdn1.iconfinder.com/data/icons/basic-ui-elements-round/700/06_menu_stack-2-512.png"></a>
     <div id="hoverdisplay">
-    <p id="infobox">Placeholder</p>
+    <p id="infobox">Name / Likes</p>
+    </div>
+         <div id="pagename">
+    <p>Noir Arts</p>
+    </div>
+    <div id="webname">
+    <p id="websitename">Art of the Past</p>
     </div>
   </header>
-       <div class="C1Images">
-     <li id="img1"></li>
-     <li id="img2"></li>
-     <li id="img3"></li>
-     <li id="img4"></li>
-     <li id="img5"></li>
-     <li id="img6"></li>
-     <li id="img7"></li>
-     <li id="img8"></li>
+     <div class="C2Images">
+     <img class="c2imgs" id="img1c2" src="https://github.com/laurens2001/FinalProject/blob/gh-pages/css/noirart.jpg?raw=true">
+     <img class="c2imgs" id="img2c2" src="http://payload.cargocollective.com/1/3/97309/1306396/noir-art-all.jpg">
+     <img class="c2imgs" id="img3c2" src="http://images2.fanpop.com/image/photos/8800000/FILM-NOIR-veronica-lake-8833467-1395-1816.jpg">
+     <img class="c2imgs" id="img4c2" src="http://www.forbiddenplanet.co.uk/blog/wp-content/uploads/2007/01/cop%20recruit.jpg">
+     <img class="c2imgs" id="img5c2" src="http://orig07.deviantart.net/9592/f/2010/176/c/c/film_noir_by_makkon.jpg">
+     <img class="c2imgs" id="img6c2" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTLLXkruQL8Aavn8HxjA8P5PmOGDw9aFvP97mcuKueLQwFfvrob">
+     <img class="c2imgs" id="img7c2" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQrcbTUY6e7lLZeVDjcYDpu9sTD4BsZAxdyvCkeiF5geAUEHDaIKg">
+     <img class="c2imgs" id="img8c2" src="http://www3.artflakes.com/artwork/products/688745/poster/noir-woman.jpg?1319572604">
     </div>
   </body>
+  <script type="text/javascript">
+      $(function(){
+        $("#img1c2").mouseover(function(){
+          $("#infobox").text("Noir 1")
+        });
+      $("#img2c2").mouseover(function(){
+          $("#infobox").text("Noir 2")
+        });
+      $("#img3c2").mouseover(function(){
+          $("#infobox").text("Noir 3")
+        });
+      $("#img4c2").mouseover(function(){
+          $("#infobox").text("Noir 4")
+        });
+      $("#img5c2").mouseover(function(){
+          $("#infobox").text("Noir 5")
+        });
+      $("#img6c2").mouseover(function(){
+          $("#infobox").text("Noir 6")
+        });
+      $("#img7c2").mouseover(function(){
+          $("#infobox").text("Noir 7")
+        });
+      $("#img8c2").mouseover(function(){
+          $("#infobox").text("Noir 8")
+        });
+      var like = 0; 
+$(".like").click(function(){
+          like ++;
+   $("#infobox").text(like +" Likes")
+  
+});
+});
+    </script>
 </html>

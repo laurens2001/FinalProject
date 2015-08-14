@@ -18,18 +18,58 @@
       title="Category Button"
       src="https://cdn1.iconfinder.com/data/icons/basic-ui-elements-round/700/06_menu_stack-2-512.png"></a>
     <div id="hoverdisplay">
-    <p id="infobox">Placeholder</p>
+    <p id="infobox">Name / Likes</p>
+    </div>
+         <div id="pagename">
+    <p>Digital Arts</p>
+    </div>
+    <div id="webname">
+    <p id="websitename">Art of the Future</p>
     </div>
   </header>
-       <div class="C1Images">
-     <li id="img1"></li>
-     <li id="img2"></li>
-     <li id="img3"></li>
-     <li id="img4"></li>
-     <li id="img5"></li>
-     <li id="img6"></li>
-     <li id="img7"></li>
-     <li id="img8"></li>
+<div class="C3Images">
+      <img class="c3imgs" id="img1c3" src="https://github.com/laurens2001/FinalProject/blob/gh-pages/css/digital_art.jpg?raw=true">
+      <img class="c3imgs" id="img2c3" src="http://art.ekstrax.com/wp-content/uploads/2014/08/digital-art-4.jpg">
+      <img class="c3imgs" id="img3c3" src="http://www.inspirefirst.com/wp-content/uploads/2012/11/Jean-B%C3%A9rard-_6600_451.jpg">
+      <img class="c3imgs" id="img4c3" src="http://creativeoverflow.net/wp-content/uploads/2012/05/10-flame-fantasy01-m59.jpg">
+      <img class="c3imgs" id="img5c3" src="http://digital-art-gallery.com/oid/125/640x434_21309_Venice_Mask_2d_portrait_mask_colorful_festival_picture_image_digital_art.jpg">
+      <img class="c3imgs" id="img66c3" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRdyw9ABcVtDHNhMuY9UFlS4i1TIrTOubmE_yfbsAVChhxfnNGx">
+      <img class="c3imgs" id="img7c3" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQDq-wQ9Eu1vbhDB1lqEZraAWwT9G1vRgKkU__pUF2XwQkp5VWp">
+      <img class="c3imgs" id="img8c3" src="http://mayhemandmuse.com/wp-content/uploads/2012/03/sakimichan-nine-tailed-fox-naruto-fan-art-anime-manga-digital-art-painting.jpg">
     </div>
   </body>
+  <script type="text/javascript">
+      $(function(){
+        $("#img1c3").mouseover(function(){
+          $("#infobox").text("Digital 1")
+        });
+      $("#img2c3").mouseover(function(){
+          $("#infobox").text("Digital 2")
+        });
+      $("#img3c3").mouseover(function(){
+          $("#infobox").text("Digital 3")
+        });
+      $("#img4c3").mouseover(function(){
+          $("#infobox").text("Digital 4")
+        });
+      $("#img5c3").mouseover(function(){
+          $("#infobox").text("Digital 5")
+        });
+      $("#img6c3").mouseover(function(){
+          $("#infobox").text("Digital 6")
+        });
+      $("#img7c3").mouseover(function(){
+          $("#infobox").text("Digital 7")
+        });
+      $("#img8c3").mouseover(function(){
+          $("#infobox").text("Digital 8")
+        });
+      var like = 0; 
+$(".like").click(function(){
+          like ++;
+   $("#infobox").text(like +" Likes")
+  
+});
+});
+    </script>
 </html>
