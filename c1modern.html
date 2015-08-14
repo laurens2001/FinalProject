@@ -3,7 +3,7 @@
   <head>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <script type="text/javascript" charset="utf-8" src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <title>Modern Arts</title>
   </head>
@@ -22,17 +22,17 @@
     </div>
   </header>
    <div class="C1Images">
-     <li id="img1"><div class="like"></div></li>
-     <li id="img2"></li>
-     <li id="img3"></li>
-     <li id="img4"></li>
-     <li id="img5"></li>
-     <li id="img6"></li>
-     <li id="img7"></li>
-     <li id="img8"></li>
+     <a href="#"><li id="img1"><div class="like"></div></li></a>
+     <li id="img2"><div class="like"></div></li>
+     <li id="img3"><div class="like"></div></li>
+     <li id="img4"><div class="like"></div></li>
+     <li id="img5"><div class="like"></div></li>
+     <li id="img6"><div class="like"></div></li>
+     <li id="img7"><div class="like"></div></li>
+     <li id="img8"><div class="like"></div></li>
     </div>
 <script type="text/javascript">
-    $(function(){
+      $(function(){
         $("#img1").mouseover(function(){
           $("#infobox").text("img1")
         });
@@ -58,8 +58,11 @@
           $("#infobox").text("img8")
         });
       var like = 0; 
-$(".like").click=function(){like ++;}
-      console.log(like)
+$(".like").click(function(){
+          like ++;
+   $("#infobox").text(like +" Likes")
+  
+});
 });
     </script>
 </div>

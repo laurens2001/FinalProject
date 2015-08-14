@@ -52,59 +52,102 @@
     width: 32%;
     height: 103%;
 }
-#infobox{
-  text-align: center;
-  color: black;
-}
 header{
-  height: 45px;
+  height: 40px;
   width: 100%;
-  position: fixed;
+  position: relative;
   margin: 0px 0px 12px 0px;
   background-color: lightblue;
   display: inline-block;
 }
-#home img{
-  margin-top: 3px;
+#home{
+  margin-top: 0px;
   margin-right: ;
   margin-bottom: ;
-  margin-left: 4px;
+  margin-left: 25px;
   display: inline-block;
 }
-#categories img{
-  margin-top: 3px;
+#categories{
+  margin-top: 0px;
   margin-right: ;
   margin-bottom: ;
-  margin-left: ;
+  margin-left: 6px;
   display: inline-block;
+}
+#home img{
+  max-width: 100%;
+}
+#categories img{
+  max-width: 100%;
 }
 #hoverdisplay{
   height: 30px;
-  width: 60%;
+  width: 30%;
   border: solid black 2px;
   background-color: rgba(255,255,255,.6);
   margin-top: 7px;
-  margin-right: ;
+  margin-right: 2px;
   margin-bottom: ;
-  margin-left: 4px;
+  margin-left: 2.5%;
   font-size: 16px;
+  text-align: center;
   display: inline-block;
 }
 body{
-  background-size: 100%;
+  background-image: url("https://www.thegreatcompany.com/wp-content/uploads/2015/02/Blank-canvas.jpg");
+  background-size:cover;
   background-repeat: no-repeat;
-  background-image:url(https://www.thegreatcompany.com/wp-content/uploads/2015/02/Blank-canvas.jpg);
+}
+div > img{
+  height: 100%;
+  max-width: 20%;
+  background-size: cover;
+  margin-top:;
+  margin-right: ;
+  margin-bottom:;
+  margin-left: 5%;
+  display: inline-block;
+  border-radius: 10px;
 }
 #modern_cat, #noir_cat, #digital_cat{
-  position: relative;
-  background-color: white;
-  height: 50px;
-  width: 50px;
-  border: 1px dashed black;
+  position: static;
+  height: 150px;
+  width: 90%;
   display: block;
+  margin-right: 10%;
+  margin-left: 15%;
 }
-#modern_cat{
-  
+div#modern_cat{
+  margin-top: 1%;
+  margin-left 20%;
+}
+div#noir_cat{
+  margin-top: 1%;
+  magin-left: 5%;
+}
+div#digital_cat{
+  margin-top: 1%;
+  margin-left: 7%;
+}
+.categorypreviewtxt{
+  position: static;
+  background-color: rgba(255,255,255,0.6);
+  height: 20px;
+  width: 77.5%;
+  display: block;
+  margin-top: 1%;
+  margin-bottom; 0px;
+  margin-right: 10%;
+  margin-left: 9.5%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+.preview img:hover{
+  transition: all 0.5s;
+  box-shadow: 0 0 10px #303030;
+  border: 2px solid white;
+}
 }
 .C1Images{
   position: absolute;
@@ -124,28 +167,37 @@ body{
   box-shadow: 0 0 20px #303030;
  }
 #img1:hover{
-  opacity: 0.8;
+  opacity: 0.9;
+
 }
+
 #img2:hover{
-  opacity: 0.8;
+  opacity: 0.9;
+
 }
 #img3:hover{
-  opacity: 0.8;
+  opacity: 0.9;
+
 }
 #img4:hover{
-  opacity: 0.8;
+    opacity: 0.9;
+
 }
 #img5:hover{
-  opacity: 0.8;
+  opacity: 0.9;
+
 }
 #img6:hover{
-  opacity: 0.8;
+  opacity: 0.9;
+
 }
 #img7:hover{
-  opacity: 0.8;
+  opacity: 0.9;
+
 }
 #img8:hover{
-  opacity: 0.8;
+  opacity: 0.9;
+
 }
 #img2{
   transition: all 0.3s;
@@ -222,13 +274,33 @@ body{
   margin: 30px;
   display: inline-block;
   border-radius: 10px;
-  	box-shadow: 0 0 20px #303030;
+  box-shadow: 0 0 20px #303030;
   
 }
 div .like{
-  height: 20px;
-  width: 20%;
-  border: 1px solid red;
-  margin-left: 80%;
-  background-color: lightblue;
+  transition: all 0.5s;
+  opacity: 1;
+  height: 18%;
+  width: 100%;
+  margin-left: 0%;
+  margin-top:82%;
+  background-image: url("https://p.bvcau.com.au/alpha/vplayer/images/like.png");
+  background-size:  10%;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  background-position: center;
+  
+}
+div .like:hover{
+  opacity: 0.9;
+  border: 1px dashed black;
+  background-color: #A9C6FF;
+  
+}
+#status img{
+  display: inline-block;
+}
+#infobox{
+  text-align: center;
+  color: black;
 }
